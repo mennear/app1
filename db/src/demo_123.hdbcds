@@ -1,0 +1,21 @@
+namespace demo_123.db;
+
+			context tables {
+			    entity Customers {
+			        key id        : Integer not null;
+			            name      : String(100);
+			            lifeSpend : Double;
+			            newSpend  : Double;
+			            income    : Double;
+			            loyalty   : Double;
+			    };
+			    
+			    			    entity Customers_2 {
+			        key id        : Integer not null;
+			            name      : String(100);
+			            lifeSpend : Double;
+			            newSpend  : Double;
+			            income    : Double;
+			            loyalty   : Double;
+			    };
+			}; 
